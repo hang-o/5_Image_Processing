@@ -40,7 +40,8 @@ imageControl IC(
      .o_convolved_data(convolved_data),
      .o_convolved_data_valid(convolved_data_valid)
  ); 
- 
+
+// https://www.youtube.com/watch?v=v8xZ7ZlJ3ek
  outputBuffer OB (
    .wr_rst_busy(),        // output wire wr_rst_busy
    .rd_rst_busy(),        // output wire rd_rst_busy
